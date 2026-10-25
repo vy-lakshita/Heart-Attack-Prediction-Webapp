@@ -5,7 +5,8 @@ import numpy as np
 
 app=Flask(__name__)
 
-p_values=pickle.load(open("pipe_values.pkl","rb"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+p_values = pickle.load(open(os.path.join(BASE_DIR, "pipe_values.pkl"), "rb"))
 
 
 @app.route('/')

@@ -1,7 +1,7 @@
 # Heart-Attack-Prediction-Webapp
 An app that takes user medical data as input  and predicts if the patient  is likely to have  heart attack or not .
 
-# How It Works
+## How It Works
 
 1. The user fills in a form with 11 medical details.
 2. The Flask app sends those details to a trained Random Forest model.

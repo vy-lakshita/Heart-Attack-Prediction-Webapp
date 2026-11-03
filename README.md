@@ -4,7 +4,7 @@ An app that takes user medical data as input  and predicts if the patient  is li
 ## How It Works
 
 1. The user fills in a form with 11 medical details.
-2. The Flask app sends those details to a trained Random Forest model.
+2. The Flask app sends those details to a trained Random Forest model (95% Acccuracy).
 3. The app shows whether the person is likely to have heart disease or not.
 
 ## Inputs
